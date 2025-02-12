@@ -1,0 +1,9 @@
+Clases\ResultadoAprendizaje.class
+DAO\CriterioEvaluacionDAO.class
+DAO\AsignaturaDAO.class
+DAO\ResultadoAprendizajeDAO.class
+Clases\Asignatura.class
+Clases\CriterioEvaluacion.class
+crud\crud\resources\JakartaEE11Resource.class
+crud\crud\JakartaRestConfiguration.class
+conexion\ConexionBD.class

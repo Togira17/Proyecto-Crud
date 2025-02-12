@@ -1,0 +1,149 @@
+/* === ESTILOS GENERALES === */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd; /* Azul claro */
+    color: #333;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* === ENCABEZADOS === */
+h1, h2, h3 {
+    color: #0d47a1; /* Azul oscuro */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* === BOTONES PERSONALIZADOS === */
+.btn-primary {
+    background-color: #1976d2;
+    border: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0d47a1;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background-color: #d32f2f;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #b71c1c;
+    transform: scale(1.05);
+}
+
+/* === TABLAS ESTILIZADAS === */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #1565c0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #bbdefb;
+}
+
+/* === FORMULARIOS MEJORADOS === */
+form {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+form:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+input[type="text"], input[type="number"], select {
+    border: 2px solid #1565c0;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select:focus {
+    outline: none;
+    border-color: #0d47a1;
+    box-shadow: 0px 0px 8px rgba(13, 71, 161, 0.5);
+}
+
+/* === ALERTAS MEJORADAS === */
+.alert {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.alert-danger {
+    background-color: #b71c1c;
+    color: white;
+}
+
+/* === TARJETAS PARA CADA SECCIÓN === */
+.section-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.section-card:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* === FOOTER === */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0d47a1;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
