@@ -1,14 +1,14 @@
 /* === ESTILOS GENERALES === */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e3f2fd; /* Azul claro */
+    background-color: cyan; /* Doradito */
     color: #333;
     padding: 20px;
 }
 
 /* Contenedor principal */
 .container {
-    background: white;
+    background: #d4a253;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);

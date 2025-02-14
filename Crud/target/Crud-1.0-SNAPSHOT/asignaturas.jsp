@@ -37,7 +37,8 @@
 <html lang="es">
 <head>
     <title>Gestión de Asignaturas</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
     <div class="container mt-4">
@@ -90,5 +91,6 @@
 
         <a href="index.jsp" class="btn btn-secondary mt-3">Volver al Inicio</a>
     </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
